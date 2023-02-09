@@ -1,10 +1,6 @@
 {
   "pages": [
     {
-      "id": "Slack Bot",
-      "isDefault": false
-    },
-    {
       "id": "2 Application Upload",
       "isDefault": false
     },
