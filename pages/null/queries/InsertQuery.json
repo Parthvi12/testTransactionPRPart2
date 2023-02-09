@@ -13,7 +13,6 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Public.users",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -46,7 +45,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Public.users_InsertQuery",
+  "id": "null_InsertQuery",
   "deleted": false,
   "gitSyncId": "63e4802e0c7ee4270b3bcb7d_63e480530c7ee4270b3bcb9c"
 }
