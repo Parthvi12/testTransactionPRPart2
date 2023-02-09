@@ -1,6 +1,14 @@
 {
   "pages": [
     {
+      "id": "2 Application Upload2",
+      "isDefault": false
+    },
+    {
+      "id": "1 Track Applications2",
+      "isDefault": false
+    },
+    {
       "id": "2 Application Upload",
       "isDefault": false
     },
@@ -17,7 +25,7 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#C7F3E3",
-  "icon": "bar-graph",
+  "icon": "moon",
   "unpublishedAppLayout": {
     "type": "DESKTOP"
   },
