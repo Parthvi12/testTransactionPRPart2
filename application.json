@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "id": "Slack Bot",
+      "isDefault": false
+    },
+    {
       "id": "2 Application Upload",
       "isDefault": false
     },
@@ -17,7 +21,13 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#C7F3E3",
-  "icon": "moon",
+  "icon": "bar-graph",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
