@@ -15,10 +15,6 @@
     {
       "id": "1 Track Applications",
       "isDefault": true
-    },
-    {
-      "id": "Public.users",
-      "isDefault": false
     }
   ],
   "viewMode": false,
