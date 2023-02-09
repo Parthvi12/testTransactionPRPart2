@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "openSetup",
-    "fullyQualifiedName": "JSObject1.openSetup",
+    "name": "storeFormData",
+    "fullyQualifiedName": "JSObject1.storeFormData",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,18 +14,17 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Slack Bot",
-    "collectionId": "Slack Bot_JSObject1",
+    "collectionId": "null_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {\n  if (appsmith.mode == \"EDIT\") {\n    showModal('Modal1');\n  }\n}",
+      "body": "async () => {\n  await storeValue('formData', JSONForm1.formData);\n  storeValue('fieldState', JSONForm1.fieldState);\n  closeModal('Modal1');\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -35,14 +34,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async () => {\n  if (appsmith.mode == \"EDIT\") {\n    showModal('Modal1');\n  }\n}"
+      "async () => {\n  await storeValue('formData', JSONForm1.formData);\n  storeValue('fieldState', JSONForm1.fieldState);\n  closeModal('Modal1');\n}"
     ],
-    "userSetOnLoad": true,
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Slack Bot_JSObject1.openSetup",
+  "id": "null_JSObject1.storeFormData",
   "deleted": false,
-  "gitSyncId": "63e4802e0c7ee4270b3bcb7d_2023-02-09T05:14:12.821340725Z"
+  "gitSyncId": "63e4802e0c7ee4270b3bcb7d_2023-02-09T05:14:12.819614246Z"
 }

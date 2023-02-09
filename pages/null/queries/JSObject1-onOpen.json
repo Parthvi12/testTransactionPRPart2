@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "clearSetup",
-    "fullyQualifiedName": "JSObject1.clearSetup",
+    "name": "onOpen",
+    "fullyQualifiedName": "JSObject1.onOpen",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,18 +14,17 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Slack Bot",
-    "collectionId": "Slack Bot_JSObject1",
+    "collectionId": "null_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  storeValue('formData', '');\n}",
+      "body": "() => {\n  if (!appsmith.store?.formData?.channels) {\n    showModal('Modal1');\n  }\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -35,14 +34,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  storeValue('formData', '');\n}"
+      "() => {\n  if (!appsmith.store?.formData?.channels) {\n    showModal('Modal1');\n  }\n}"
     ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Slack Bot_JSObject1.clearSetup",
+  "id": "null_JSObject1.onOpen",
   "deleted": false,
-  "gitSyncId": "63e4802e0c7ee4270b3bcb7d_2023-02-09T05:14:12.819166569Z"
+  "gitSyncId": "63e4802e0c7ee4270b3bcb7d_2023-02-09T05:14:12.817625484Z"
 }

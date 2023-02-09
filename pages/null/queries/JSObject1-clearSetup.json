@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "storeFormData",
-    "fullyQualifiedName": "JSObject1.storeFormData",
+    "name": "clearSetup",
+    "fullyQualifiedName": "JSObject1.clearSetup",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,13 +14,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Slack Bot",
-    "collectionId": "Slack Bot_JSObject1",
+    "collectionId": "null_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {\n  await storeValue('formData', JSONForm1.formData);\n  storeValue('fieldState', JSONForm1.fieldState);\n  closeModal('Modal1');\n}",
+      "body": "() => {\n  storeValue('formData', '');\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
@@ -35,14 +34,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async () => {\n  await storeValue('formData', JSONForm1.formData);\n  storeValue('fieldState', JSONForm1.fieldState);\n  closeModal('Modal1');\n}"
+      "() => {\n  storeValue('formData', '');\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Slack Bot_JSObject1.storeFormData",
+  "id": "null_JSObject1.clearSetup",
   "deleted": false,
-  "gitSyncId": "63e4802e0c7ee4270b3bcb7d_2023-02-09T05:14:12.819614246Z"
+  "gitSyncId": "63e4802e0c7ee4270b3bcb7d_2023-02-09T05:14:12.819166569Z"
 }

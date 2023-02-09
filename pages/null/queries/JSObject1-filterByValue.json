@@ -14,8 +14,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Slack Bot",
-    "collectionId": "Slack Bot_JSObject1",
+    "collectionId": "null_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -52,7 +51,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Slack Bot_JSObject1.filterByValue",
+  "id": "null_JSObject1.filterByValue",
   "deleted": false,
   "gitSyncId": "63e4802e0c7ee4270b3bcb7d_2023-02-09T05:14:12.820275019Z"
 }

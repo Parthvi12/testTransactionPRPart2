@@ -12,7 +12,6 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Slack Bot",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -36,7 +35,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Slack Bot_getApplications",
+  "id": "null_getApplications",
   "deleted": false,
   "gitSyncId": "63e4802e0c7ee4270b3bcb7d_2023-02-09T05:14:12.822352518Z"
 }
